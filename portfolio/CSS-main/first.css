@@ -1,0 +1,33 @@
+.nameandprofile {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-photo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 200px;
+  position: relative;
+}
+
+.profile-photo > img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 39%;
+}
+
+.profile-photo h1 {
+  font-size: var(--font-size--x-large);
+  margin-top: 350px;
+}
+
+.profile-photo h2 {
+  font-size: var(--font-size--large);
+  margin-top: 25px;
+  opacity: 0.5;
+}

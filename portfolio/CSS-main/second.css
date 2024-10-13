@@ -1,0 +1,38 @@
+.infoarea {
+  max-width: 1400px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.insamal {
+  padding-top: 140px;
+  font-size: 40px;
+}
+
+.subinsamal {
+  font-size: 36px;
+  opacity: 0.6;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 40px;
+  padding-top: 60px;
+  font-size: 26px;
+  border-top: 3px solid black;
+}
+
+.info p {
+  padding-left: 10px;
+  text-align: left;
+  font-size: var(--font-size--base);
+  opacity: 0.6;
+}
+
+.photocards {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
