@@ -1,0 +1,13 @@
+.guideline {
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.description {
+  max-width: 1800px;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding-top: 150px;
+}

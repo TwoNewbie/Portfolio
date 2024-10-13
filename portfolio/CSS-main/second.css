@@ -5,7 +5,8 @@
 }
 
 .insamal {
-  padding-top: 140px;
+  padding-top: 240px;
+  padding-bottom: 40px;
   font-size: 40px;
 }
 
@@ -25,6 +26,7 @@
 }
 
 .info p {
+  padding-top: 15px;
   padding-left: 10px;
   text-align: left;
   font-size: var(--font-size--base);
