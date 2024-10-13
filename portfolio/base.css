@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "FlightSans-Title";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/FlightSans-Title.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: FlightSans-Title;
+}
+
+:root {
+  /* 색상 */
+  --color--primary: #fcdab9;
+  --color--secondary: #f8b3a4;
+  --color--background: #f78888;
+  --color--text: white;
+  --color--link: #a26b7f;
+
+  /* 폰트 사이즈 */
+  --font-size--base: 16px;
+  --font-size--small: 12px;
+  --font-size--x-small: 10px;
+  --font-size--large: 20px;
+  --font-size--x-large: 48px;
+
+  /* 센터링 & 컨테이닝 */
+  --max-width--pc: 1200px
+  --max-width--mobile: 768px;
+}

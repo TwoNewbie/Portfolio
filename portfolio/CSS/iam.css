@@ -1,0 +1,25 @@
+.icontainer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.icon {
+  font-size: var(--font-size--x-large);
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 300px;
+  height: 400px;
+  opacity: 0.8;
+  gap: 30px;
+}
